@@ -1,25 +1,3 @@
-
-# [完整使用教程](http://cxgc.top/)
-
-# 所有非京东的脚本都从新库拉取
-```
-【JDWXX-非京东任务汇总】
-```
-##### 命令
-
-```
-ql repo https://github.com/JDWXX/ql_all.git "" "Backup|index|HT.*|sendNotify|ql" "HT.*|sendNotify|ql"
-```
-##### 备用命令
-```
-ql repo https://hub.fastgit.org/JDWXX/ql_all.git "" "Backup|index|HT.*|sendNotify|ql" "HT.*|sendNotify|ql"
-```
-##### 定时规则
-
-```
-0 0 1,10,15 * * *
-```
-
 ## 特别声明:
 
 * 本仓库发布的Script项目中涉及的任何解锁和解密分析脚本，仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
@@ -40,33 +18,9 @@ ql repo https://hub.fastgit.org/JDWXX/ql_all.git "" "Backup|index|HT.*|sendNotif
 > ***您使用或者复制了本仓库且本人制作的任何脚本，则视为`已接受`此声明，请仔细阅读***
 
 
-### 为防止账号再次遭到封禁失联,可以加入QQ交流群
-### 1群 681030097
-![image](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a406456-63ac-413b-b1f6-27a6eed5945e/baf96b0a-3764-4d81-b47f-bdcc3c553c96.png)
-### 2群 681030097
-![image](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a406456-63ac-413b-b1f6-27a6eed5945e/98838c66-1a67-4c86-b52b-702742d7412a.png)
-
-## 超低价阿里云服务器
-#### [https://www.aliyun.com/activity/ambassador/share-gift/goods?taskCode=xfyh2107&recordId=764770&userCode=31csnowy](https://www.aliyun.com/activity/ambassador/share-gift/goods?taskCode=xfyh2107&recordId=764770&userCode=31csnowy)
-
-## 腾讯云服务器
-#### [http://url.cn/5Z0ZWGI](http://url.cn/5Z0ZWGI)
-#### [备用购买地址](https://cloud.tencent.com/act/pro/starlake?fromSource=gwzcw.3788702.3788702.3788702&utm_medium=cpc&utm_id=gwzcw.3788702.3788702.3788702&cps_key=13c854d3ec192824956cc079f600753f)
-
-# 拉取仓库
-##### 名称
-
-```
-【JDWXX】
-```
 ##### 命令
 ```
-ql repo https://ghproxy.com/https://github.com/JDWXX/jd_job.git "jd_|jx_|gua_|jddj_|getJDCookie" "activity|backUp" "^jd[^_]|USER|function|utils|ZooFaker_Necklace.js|JDJRValidator_Pure|sign_graphics_validate|ql"
-
-```
-##### 备用命令
-```
-ql repo https://hub.fastgit.org/JDWXX/jd_job.git "jd_|jx_|gua_|jddj_|getJDCookie" "activity|backUp" "^jd[^_]|USER|function|utils|ZooFaker_Necklace.js|JDJRValidator_Pure|sign_graphics_validate|ql"
+ql repo https://accgit.tcz0632.workers.dev/https://github.com/tttccz/JD_WOOL.git "jd_|jx_|gua_|jddj_|getJDCookie" "activity|backUp" "^jd[^_]|USER|function|utils|ZooFaker_Necklace.js|JDJRValidator_Pure|sign_graphics_validate|ql"
 
 ```
 ##### 定时规则
@@ -74,34 +28,3 @@ ql repo https://hub.fastgit.org/JDWXX/jd_job.git "jd_|jx_|gua_|jddj_|getJDCookie
 ```
 0 10 0 * * *
 ```
-
-# 使用文档
-
-[教程](http://cxgc.top/)
-
-## 助力教程
-
-## 抓取 wskey
-### 所需软件 抓包工具 （Fiddler） 模拟器 （MM模拟器） （京东无线宝） 
-### 软件都在 wskey目录下（main.exe 为 wskey转换ck工具）
-
-### 视频教程： 利用Fiddler抓取京东云app的wskey
-#### [https://www.bilibili.com/video/av841105364/](https://www.bilibili.com/video/av841105364/)
-
-#### Fiddler配置
-![img_2.png](docs/assets/img/img_2.png)
-![img_3.png](docs/assets/img/img_3.png)
-![img_4.png](docs/assets/img/img_4.png)
-![img_5.png](docs/assets/img/img_5.png)
-
-
-#### 关于脚本推送通知频率
-
-> 如果你填写了推送通知方式中的某一种通知所需环境变量，那么脚本通知情况如下：
-
-> 目前默认只有jd_fruit.js,jd_pet.js,jd_bean_sign.js,jd_bean_change.js,jd_jxnc.js这些脚本(默认)每次运行后都通知
-
-  ```
-其余的脚本平常运行都是不通知，只有在京东cookie失效以及达到部分条件后，才会推送通知    
-  ```
-
