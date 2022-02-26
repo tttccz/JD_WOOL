@@ -28,3 +28,26 @@ ql repo https://accgit.tcz0632.workers.dev/https://github.com/tttccz/JD_WOOL.git
 ```
 0 10 0 * * *
 ```
+
+### 依赖安装：进入青龙后台安装依赖
+依赖管理》NodeJs》添加依赖》选择自动拆分，把以下内容全部复制到名称里，之后点击确定
+```
+png-js
+date-fns
+axios
+dotenv
+got
+crypto-js
+md5
+ts-md5
+tslib
+@types/node
+requests
+tough-cookie
+jsdom
+download
+tunnel
+ws
+js-base64
+qrcode-terminal
+```
